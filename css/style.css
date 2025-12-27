@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: Philosopher-regular;
-  src: url(/bakery/fonts/Philosopher-Regular.ttf);
+  src: url(../fonts/Philosopher-Regular.ttf);
 }
 
 body {
@@ -48,7 +48,7 @@ nav {
 
 .section-image {
   position: relative;
-  background-image: url(/bakery/img/background_image.jpg);
+  background-image: url(../img/background_image.jpg);
   height: 640px;
   background-size: cover;
   background-repeat: no-repeat;

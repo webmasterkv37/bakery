@@ -1,9 +1,23 @@
 @media (max-width: 1070px) {
   .section-description__icon-box {
-    height: 22rem;
+    height: 18rem;
   }
 
   .section-desсription__title {
     font-size: 8rem;
+  }
+}
+
+@media (max-width: 860px) {
+  .section-description__title {
+    height: 22rem;
+  }
+
+  .section-image__block {
+    font-size: 8rem;
+    display: none;
+  }
+  .block-adaptive {
+    display: block;
   }
 }

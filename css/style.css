@@ -190,16 +190,25 @@ html {
   text-align: center;
   width: 90%;
   border: 0.2rem dashed #f15b40;
-  margin: 0 auto 2rem auto;
+  margin: 0 auto 4rem auto;
 }
 
 .block-adaptive__title {
   font-size: 3.6rem;
   margin-bottom: 0.9rem;
   font-family: Philosopher-regular;
+  cursor: pointer;
 }
 
 .block-adaptive__text[open] {
   font-size: 1.2rem;
   padding: 2rem;
+}
+
+.block-adaptive__title::marker {
+  content: none;
+}
+
+.block-adaptive__title:hover {
+  color: #f15b40;
 }
